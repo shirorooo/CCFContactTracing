@@ -1,0 +1,88 @@
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #006a4e, #b8d5cd);
+  padding: 0 !important;
+}
+
+.navbar img {
+  width: 30%;
+}
+
+.navbar-toggler {
+  /* outline: none !important; */
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.nav-bar h7 {
+  font-weight: 600;
+}
+
+#banner {
+  background-image: linear-gradient(to right, #006a4e, #b8d5cd);
+  color: #ffffff;
+  padding-top: 3%;
+}
+
+#banner h2 {
+  font-size: 30px;
+}
+
+#banner p {
+  font-size: 14px;
+}
+
+#wlcm-body {
+  background-image: url(img/wp5430320.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  z-index: -2;
+}
+
+#wlcm-body h2 {
+  z-index: 1;
+  padding-top: 18%;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-shadow: -5px 0px 4px rgba(0, 0, 0, 0.14);
+  background-image: linear-gradient(to right, #006a4e 0%, #4ddfb6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#wlcm-body .btn {
+  margin: 2px;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+#socialMedia {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#socialMedia p {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.social-icons img {
+  width: 45px;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
